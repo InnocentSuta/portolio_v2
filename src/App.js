@@ -1,9 +1,10 @@
 import React from 'react'
 import { About, Footer, Experience, Header, Projects, Skills } from './containers'
-
+import { Navbar } from './components'
 const App = () => {
   return (
     <div className='app'>
+      <Navbar />
       <Header />
       <About />
       <Experience />
